@@ -47,11 +47,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting() {
-    var firstName by remember { mutableStateOf("") }
-    var lastName by remember { mutableStateOf("") }
-    var age by remember { mutableStateOf("") }
-    var userName by remember { mutableStateOf("") }
-    var password by remember { mutableStateOf("") }
+    var firstName by remember  { mutableStateOf("") }
+    var lastName by remember  { mutableStateOf("") }
+    var age by remember  { mutableStateOf("") }
+    var userName by remember  { mutableStateOf("") }
+    var password by remember  { mutableStateOf("") }
     val showDialog =  remember { mutableStateOf(false) }
 
     if(showDialog.value) {
@@ -92,14 +92,16 @@ fun Greeting() {
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 15.dp),
                 value = firstName,
                 onValueChange = {newText -> firstName = newText},
-                label = { Text(text = "First Name") }
+                label = { Text(text = "First Name") },
+                maxLines = 1
             )
             Spacer(modifier = Modifier.height(20.dp))
             OutlinedTextField(
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 15.dp),
                 value = lastName,
                 onValueChange = {newText -> lastName = newText},
-                label = { Text(text = "Last Name") }
+                label = { Text(text = "Last Name") },
+                maxLines = 1
             )
             Spacer(modifier = Modifier.height(20.dp))
             OutlinedTextField(
@@ -107,14 +109,16 @@ fun Greeting() {
                 value = age,
                 onValueChange = {newText -> age = newText},
                 label = { Text(text = "Age") },
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number)
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
+                maxLines = 1
             )
             Spacer(modifier = Modifier.height(20.dp))
             OutlinedTextField(
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 15.dp),
                 value = userName,
                 onValueChange = {newText -> userName = newText},
-                label = { Text(text = "Username") }
+                label = { Text(text = "Username") },
+                maxLines = 1
             )
             Spacer(modifier = Modifier.height(20.dp))
             OutlinedTextField(
@@ -123,7 +127,8 @@ fun Greeting() {
                 onValueChange = {newText -> password = newText},
                 label = { Text(text = "Password") },
                 visualTransformation = PasswordVisualTransformation(),
-                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password)
+                keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Password),
+                maxLines = 1
             )
             Spacer(modifier = Modifier.height(20.dp))
             Button(
