@@ -1,10 +1,14 @@
-![Result screen 1](https://github.com/duyenqa/images/blob/main/2024-10-01_044003.png "Result 1")
+## Layout use for light or dark
 
-**Fill data and output Dialog**
+<img src="https://github.com/duyenqa/images/blob/main/screen01.jpg"  width="40%" alt="screen 1">
 
-![Result screen 2](https://github.com/duyenqa/images/blob/main/2024-10-01_044219.png "Result 2")
+<img src="https://github.com/duyenqa/images/blob/main/screen02.jpg"  width="40%" alt="screen 2">
 
-[APK APP](https://drive.google.com/file/d/1uORJDnNk20j611yYiv-aRvid7lNlJiYe/view?usp=sharing)
+and
+
+<img src="https://github.com/duyenqa/images/blob/main/screen03.jpg"  width="40%" alt="screen 3">
+
+[APK APP](https://drive.google.com/file/d/1_fNIiarO6GyD6reJjHZOPApPfc0wfaTo/view?usp=sharing)
 
 [Read document UI](https://developer.android.com/develop/ui/compose/components)
 
