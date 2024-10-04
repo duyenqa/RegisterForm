@@ -1,6 +1,5 @@
 package com.example.registerform
 
-import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
@@ -31,34 +30,16 @@ import androidx.compose.ui.unit.sp
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ScreenLogin(navigateToB: () -> Unit){
+fun ScreenSignup(navigateToB: () -> Unit){
     var firstName by remember  { mutableStateOf("") }
     var lastName by remember  { mutableStateOf("") }
     var age by remember  { mutableStateOf("") }
     var userName by remember  { mutableStateOf("") }
     var password by remember  { mutableStateOf("") }
-    val showDialog =  remember { mutableStateOf(false) }
 
-    if(showDialog.value) {
-        AlertDialog(
-            onDismissRequest = {
-                showDialog.value = false
-            },
-            title = { Text(text = "Registration Success") },
-            text = {
-                Text(text = "Welcome" + " $lastName" + " $firstName")
-            },
-            confirmButton = {
-                TextButton(onClick = { showDialog.value = false }) { Text("Register") }
-            },
-            dismissButton = {
-                TextButton(onClick = { showDialog.value = false }) { Text("Cancel") }
-            }
-        )
-    }
     Scaffold(
         topBar = {
-            TopAppBar(title = { Text(text = "Register Form") })
+            TopAppBar(title = { Text(text = "Screen Signup") })
         }
     ) { innerPadding ->
         Column (
@@ -110,8 +91,7 @@ fun ScreenLogin(navigateToB: () -> Unit){
             Spacer(modifier = Modifier.height(20.dp))
             Button(
                 modifier = Modifier.height(50.dp).fillMaxWidth().padding(horizontal = 15.dp),
-                onClick = { showDialog.value = true }
-            ) {
+                onClick = navigateToB) {
                 Text(text = "Register", fontSize = 20.sp,fontWeight = FontWeight.Bold)
             }
         }
