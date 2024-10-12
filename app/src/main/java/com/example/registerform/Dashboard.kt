@@ -39,22 +39,22 @@ data class Item(val title: String, val icon: Int)
 fun ScreenDashboard() {
     val oneList = listOf(
         Feature(
-            name = "Sản phẩm 1"
+            name = "Item 1"
         ),
         Feature(
-            name = "Sản phẩm 2"
+            name = "Item 2"
         ),
         Feature(
-            name = "Sản phẩm 3"
+            name = "Item 3"
         ),
         Feature(
-            name = "Sản phẩm 4"
+            name = "Item 4"
         ),
         Feature(
-            name = "Sản phẩm 5"
+            name = "Item 5"
         ),
         Feature(
-            name = "Sản phẩm 6"
+            name = "Item 6"
         )
     )
     val ls = listOf(
@@ -119,7 +119,7 @@ fun ScreenDashboard() {
                 modifier = Modifier.padding(horizontal = 15.dp)
             )
             LazyVerticalGrid(
-                modifier = Modifier.height(300.dp).padding(horizontal = 15.dp),
+                modifier = Modifier.height(320.dp).padding(horizontal = 15.dp),
                 columns = GridCells.Fixed(2),
                 verticalArrangement = Arrangement.spacedBy(16.dp),
                 horizontalArrangement = Arrangement.spacedBy(16.dp)
@@ -193,7 +193,8 @@ fun ScreenDashboard() {
                                 painter = rememberAsyncImagePainter
                                     (model = R.drawable.baseline_arrow_forward_ios_24),
                                 "icon",
-                                modifier = Modifier.size(20.dp)
+                                modifier = Modifier.size(20.dp),
+                                tint = Color.White
                             )
                         }
                     }
