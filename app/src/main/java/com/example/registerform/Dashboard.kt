@@ -1,5 +1,6 @@
 package com.example.registerform
 
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -21,18 +22,19 @@ import androidx.compose.foundation.lazy.grid.GridCells
 import androidx.compose.foundation.lazy.grid.LazyVerticalGrid
 import androidx.compose.foundation.lazy.grid.items
 import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CornerSize
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Icon
-import androidx.compose.material3.Surface
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.sp
-import coil.compose.rememberAsyncImagePainter
 
 data class Feature(val name: String)
-data class Item(val title: String, val icon: Int)
+data class Item(val title: String, val icon: Int, val description: String)
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -59,44 +61,54 @@ fun ScreenDashboard() {
     )
     val ls = listOf(
         Item(
-            title = "Text 1",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 1",
+            icon = R.drawable.cat1,
+            description = "Lorem Ipsum is simply dummy text"
         ),
         Item(
-            title = "Text 2",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 2",
+            icon = R.drawable.cat2,
+            description = "Lorem Ipsum is simply dummy text"
         ),
         Item(
-            title = "Text 3",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 3",
+            icon = R.drawable.cat3,
+            description = "Lorem Ipsum is simply dummy text"
         ),
         Item(
-            title = "Text 4",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 4",
+            icon = R.drawable.cat4,
+            description = "Lorem Ipsum is simply dummy text"
         ),
         Item(
-            title = "Text 6",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 6",
+            icon = R.drawable.cat5,
+            description = "Lorem Ipsum is simply dummy text"
         ),
         Item(
-            title = "Text 7",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 7",
+            icon = R.drawable.cat6,
+            description = "Lorem Ipsum is simply dummy text"
         ),
         Item(
-            title = "Text 8",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 8",
+            icon = R.drawable.cat7,
+            description = "Lorem Ipsum is simply dummy text"
         ),
         Item(
-            title = "Text 9",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 9",
+            icon = R.drawable.cat8,
+            description = "Lorem Ipsum is simply dummy text"
         ),
         Item(
-            title = "Text 10",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 10",
+            icon = R.drawable.cat9,
+            description = "Lorem Ipsum is simply dummy text"
         ),
         Item(
-            title = "Text 11",
-            icon = R.drawable.baseline_arrow_forward_ios_24
+            title = "Title 11",
+            icon = R.drawable.cat10,
+            description = "Lorem Ipsum is simply dummy text"
         )
     );
 
@@ -171,31 +183,31 @@ fun ScreenDashboard() {
                 //Content 3
                 Text("Ingredient 3", fontSize = 20.sp, modifier = Modifier.padding(horizontal = 15.dp))
                 LazyColumn(
-                    modifier = Modifier.height(800.dp).padding(horizontal = 15.dp),
+                    modifier = Modifier.height(800.dp),
                     verticalArrangement = Arrangement.spacedBy(15.dp)
                 ) {
                     items(ls, key = { it.title }) {
                         Row(
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .clip(RoundedCornerShape(10.dp))
-                                .background(color = Color.Magenta)
-                                .padding(20.dp),
-                            horizontalArrangement = Arrangement.SpaceBetween,
+                                .padding(10.dp)
+                                .background(Color(0xFF7DCEA0), shape = RoundedCornerShape(15.dp)),
+                            horizontalArrangement = Arrangement.spacedBy(16.dp),
                             verticalAlignment = Alignment.CenterVertically
                         ) {
-                            Text(
-                                text = it.title,
-                                fontSize = 18.sp,
-                                color = Color.White
+                            Image(
+                                painter = painterResource(it.icon),
+                                contentDescription = null,
+                                contentScale = ContentScale.Crop,
+                                modifier = Modifier
+                                    .padding(8.dp)
+                                    .size(84.dp)
+                                    .clip(RoundedCornerShape(corner = CornerSize(16.dp)))
                             )
-                            Icon(
-                                painter = rememberAsyncImagePainter
-                                    (model = R.drawable.baseline_arrow_forward_ios_24),
-                                "icon",
-                                modifier = Modifier.size(20.dp),
-                                tint = Color.White
-                            )
+                            Column {
+                                Text(text = it.title, style = MaterialTheme.typography.titleMedium)
+                                Text(text = it.description, style = MaterialTheme.typography.bodyMedium)
+                            }
                         }
                     }
                 }
