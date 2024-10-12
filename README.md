@@ -27,9 +27,20 @@ Only a screen register form
 
 [Version 1](https://drive.google.com/drive/folders/1P3qXWOiYalJknPU319sv1Vm6uFKgKiSB?usp=sharing) 01/10/2024
 
-It has 3 screen (register form, log in, dashboard and navigation)
+It has 3 screens like register form, log in, dashboard and navigation
 
-[Version 2](https://drive.google.com/file/d/1dOR4IzlcX0sETWCNUNvKSQIJv7IHAzTg/view?usp=sharing) 04/10/2024 - 12/10/2024
+[**Newest Version 2**](https://drive.google.com/file/d/1dOR4IzlcX0sETWCNUNvKSQIJv7IHAzTg/view?usp=sharing) 04/10/2024 - 12/10/2024
+
+## Run server Appium Inspector
+```text
+{
+  "platformName": "Android",
+  "appium:udid": "your text",
+  "appium:appPackage": "com.example.registerform",
+  "appium:appActivity": "com.example.registerform.MainActivity",
+  "appium:automationName": "UiAutomator2"
+}
+```
 
 ## Author
 By Ngô Thị Kim Duyên - 2024
