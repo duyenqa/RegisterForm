@@ -1,5 +1,8 @@
 ## Layout use for light or dark
 
+- Use [Jetpack compose Material 3](https://developer.android.com/develop/ui/compose/components)
+- Language programming: Kotlin
+
 ### Screens 
 1. Sign up
 
@@ -20,12 +23,13 @@
 
 
 ## Download APK
+Only a screen register form
+
 [Version 1](https://drive.google.com/drive/folders/1P3qXWOiYalJknPU319sv1Vm6uFKgKiSB?usp=sharing) 01/10/2024
 
-[Version 2](https://drive.google.com/file/d/1dOR4IzlcX0sETWCNUNvKSQIJv7IHAzTg/view?usp=sharing) 04/10/2024 - 12/10/2024
+It has 3 screen (register form, log in, dashboard and navigation)
 
-## Document UI
-[Read](https://developer.android.com/develop/ui/compose/components)
+[Version 2](https://drive.google.com/file/d/1dOR4IzlcX0sETWCNUNvKSQIJv7IHAzTg/view?usp=sharing) 04/10/2024 - 12/10/2024
 
 ## Author
 By Ngô Thị Kim Duyên - 2024
