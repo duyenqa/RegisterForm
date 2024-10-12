@@ -1,6 +1,9 @@
 ## Layout use for light or dark
 
 - Use [Jetpack compose Material 3](https://developer.android.com/develop/ui/compose/components)
+- Use [List](https://developer.android.com/develop/ui/compose/lists)
+- Use [Image](https://developer.android.com/develop/ui/compose/graphics/images/customize)
+- Use [Navigation](https://developer.android.com/develop/ui/compose/migrate/migration-scenarios/navigation)
 - Language programming: Kotlin
 
 ### Screens 
@@ -15,11 +18,18 @@
 
 <img src="https://github.com/duyenqa/images/blob/main/screen04.jpg"  width="40%" alt="screen 4">
 
-3. Dashboard
+3. Dashboard **version 2**
 
 <img src="https://github.com/duyenqa/images/blob/main/screen_5.jpg"  width="40%" alt="screen 5">
 
 <img src="https://github.com/duyenqa/images/blob/main/screen_6.jpg"  width="40%" alt="screen 6">
+
+3. Dashboard **version 3**
+
+<img src="https://github.com/duyenqa/images/blob/main/screen7.jpg"  width="40%" alt="screen 7">
+
+<img src="https://github.com/duyenqa/images/blob/main/screen8.jpg"  width="40%" alt="screen 7">
+
 
 
 ## Download APK
@@ -29,7 +39,9 @@ Only a screen register form
 
 It has 3 screens like register form, log in, dashboard and navigation
 
-[**Newest Version 2**](https://drive.google.com/file/d/1dOR4IzlcX0sETWCNUNvKSQIJv7IHAzTg/view?usp=sharing) 04/10/2024 - 12/10/2024
+[Version 2](https://drive.google.com/file/d/1dOR4IzlcX0sETWCNUNvKSQIJv7IHAzTg/view?usp=sharing) 04/10/2024 - 12/10/2024
+
+[**Newest Version 3**](https://drive.google.com/drive/folders/168RH0K5j9-InVpQh9OeTp1Lzx8euIrw6?usp=sharing) 13/10/2024
 
 ## Run server Appium Inspector
 ```text
