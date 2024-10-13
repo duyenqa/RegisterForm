@@ -4,8 +4,7 @@
 - Install [Navigation](https://developer.android.com/develop/ui/compose/navigation#kts)
 - Use [Navigation](https://www.youtube.com/watch?v=aCXofs2Zejk)
 - Use [Image](https://developer.android.com/develop/ui/compose/graphics/images/customize)
-- Use [Data class](https://www.tutorialspoint.com/kotlin/kotlin_data_classes.htm)
-- Use [List](https://developer.android.com/develop/ui/compose/lists)
+- Use [Data class](https://www.tutorialspoint.com/kotlin/kotlin_data_classes.htm) and [List](https://developer.android.com/develop/ui/compose/lists)
 
 ### Screens 
 > :sparkles: **1. Sign Up**
