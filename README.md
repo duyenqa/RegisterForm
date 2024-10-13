@@ -7,26 +7,26 @@
 - Use [List](https://developer.android.com/develop/ui/compose/lists)
 
 ### Screens 
->  **1. Sign Up**
+> :sparkles: **1. Sign Up**
 
 <div style="display:inline-block">
   <img src="https://github.com/duyenqa/images/blob/main/screen01.jpg"  width="40%" alt="screen 1"> 
   <img src="https://github.com/duyenqa/images/blob/main/screen02.jpg"  width="40%" alt="screen 3">
 </div>
 
-> **2. Log in**
+> :sparkles: **2. Log in**
 <div style="display:inline-block">
   <img src="https://github.com/duyenqa/images/blob/main/screen03.jpg" width="40%" alt="screen 3">
   <img src="https://github.com/duyenqa/images/blob/main/screen04.jpg"  width="40%" alt="screen 4">
 </div>
 
-> **3. Dashboard version 2**
+> :sparkles: **3. Dashboard version 2**
 <div style="display:inline-block">
   <img src="https://github.com/duyenqa/images/blob/main/screen_5.jpg"  width="40%" alt="screen 5">
   <img src="https://github.com/duyenqa/images/blob/main/screen_6.jpg"  width="40%" alt="screen 6">
 </div>
 
-> **3. Dashboard version 3**
+> :sparkles: **3. Dashboard version 3**
 <div style="display:inline-block">
   <img src="https://github.com/duyenqa/images/blob/main/screen7.jpg"  width="40%" alt="screen 7">
   <img src="https://github.com/duyenqa/images/blob/main/screen8.jpg"  width="40%" alt="screen 8">
