@@ -1,7 +1,8 @@
 ## Layout use for light or dark
 - Language programming: Kotlin
 - Use [Jetpack compose Material 3](https://developer.android.com/develop/ui/compose/components)
-- Use [Navigation](https://developer.android.com/develop/ui/compose/migrate/migration-scenarios/navigation)
+- Install [Navigation](https://developer.android.com/develop/ui/compose/navigation#kts)
+- Use [Navigation](https://www.youtube.com/watch?v=aCXofs2Zejk)
 - Use [Image](https://developer.android.com/develop/ui/compose/graphics/images/customize)
 - Use [Data class](https://www.tutorialspoint.com/kotlin/kotlin_data_classes.htm)
 - Use [List](https://developer.android.com/develop/ui/compose/lists)
