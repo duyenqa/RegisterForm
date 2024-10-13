@@ -126,7 +126,7 @@ fun ScreenDashboard() {
         ) {
             //Content 1
             Text(
-                text = "Ingredient 1",
+                text = "List 1",
                 fontSize = 20.sp,
                 modifier = Modifier.padding(horizontal = 15.dp)
             )
@@ -154,7 +154,7 @@ fun ScreenDashboard() {
 
             //Content 2
                 Text(
-                    text = "Ingredient 2",
+                    text = "List 2",
                     fontSize = 20.sp,
                     modifier = Modifier.padding(horizontal = 15.dp)
                 )
@@ -180,8 +180,9 @@ fun ScreenDashboard() {
                         }
                     }
                 }
+
                 //Content 3
-                Text("Ingredient 3", fontSize = 20.sp, modifier = Modifier.padding(horizontal = 15.dp))
+                Text("List 3", fontSize = 20.sp, modifier = Modifier.padding(horizontal = 15.dp))
                 LazyColumn(
                     modifier = Modifier.height(800.dp),
                     verticalArrangement = Arrangement.spacedBy(15.dp)
