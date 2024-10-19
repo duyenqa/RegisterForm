@@ -47,17 +47,17 @@
 ## Download APK
 Only a screen register form
 
-[Version 1](https://drive.google.com/drive/folders/1P3qXWOiYalJknPU319sv1Vm6uFKgKiSB?usp=sharing) 01/10/2024
+- [Version 1](https://drive.google.com/drive/folders/1P3qXWOiYalJknPU319sv1Vm6uFKgKiSB?usp=sharing) 01/10/2024
 
 It has 3 screens like register form, log in, dashboard and navigation
 
-[Version 2](https://drive.google.com/file/d/1dOR4IzlcX0sETWCNUNvKSQIJv7IHAzTg/view?usp=sharing) 04/10/2024 - 12/10/2024
+- [Version 2](https://drive.google.com/file/d/1dOR4IzlcX0sETWCNUNvKSQIJv7IHAzTg/view?usp=sharing) 04/10/2024 - 12/10/2024
 
-[Newest Version 3](https://drive.google.com/file/d/1ulmST3nI59C1Sv_f6Mi62ZbduD7DtfrB/view?usp=sharing) 13/10/2024
+- [Version 3](https://drive.google.com/file/d/1ulmST3nI59C1Sv_f6Mi62ZbduD7DtfrB/view?usp=sharing) 13/10/2024
 
 It has 4 screens like register form, log in, dashboard, detail and navigation
 
-[**Newest Version 4**](https://drive.google.com/drive/folders/1DNU2RT-yuA4jAmcx_Bcf7mlDx55WbAOY?usp=sharing) 20/10/2024
+- [**Newest Version 4**](https://drive.google.com/drive/folders/1DNU2RT-yuA4jAmcx_Bcf7mlDx55WbAOY?usp=sharing) 20/10/2024
 
 ## Run server Appium Inspector
 ```text
