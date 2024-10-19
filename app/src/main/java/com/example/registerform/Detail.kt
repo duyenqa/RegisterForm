@@ -51,7 +51,7 @@ fun ScreenDetail(imageId: Array<Int>, names: Array<String>, description: Array<S
                 fontWeight = FontWeight.Bold,
                 modifier = Modifier.padding(20.dp)
             )
-            Text(text = "Description")
+            Text(text = "Description",fontSize = 18.sp, modifier = Modifier.padding(horizontal = 15.dp))
             Text(
                 text = description[itemIndex!!],
                 fontSize = 18.sp,
