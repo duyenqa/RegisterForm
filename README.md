@@ -27,7 +27,7 @@
   <img src="https://github.com/duyenqa/images/blob/main/screen_6.jpg"  width="40%" alt="screen 6">
 </div>
 
-> :sparkles: **3. Version 3**
+> :sparkles: **3. Dashboard Version 3**
 <div style="display:inline-block">
   <img src="https://github.com/duyenqa/images/blob/main/screen07.jpg"  width="40%" alt="screen 7">
   <img src="https://github.com/duyenqa/images/blob/main/screen08.jpg"  width="40%" alt="screen 8">
