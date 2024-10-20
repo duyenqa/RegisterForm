@@ -9,6 +9,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
@@ -47,11 +48,11 @@ fun ScreenDetail(imageId: Array<Int>, names: Array<String>, description: Array<S
 
             Text(
                 text = names[itemIndex!!],
-                fontSize = 30.sp,
                 fontWeight = FontWeight.Bold,
-                modifier = Modifier.padding(20.dp)
+                modifier = Modifier.padding(horizontal = 15.dp),
+                style = MaterialTheme.typography.headlineMedium
             )
-            Text(text = "Description",fontSize = 18.sp, modifier = Modifier.padding(horizontal = 15.dp))
+            Text(text = "Thông tin căn bản",fontSize = 18.sp, modifier = Modifier.padding(horizontal = 15.dp))
             Text(
                 text = description[itemIndex!!],
                 fontSize = 18.sp,

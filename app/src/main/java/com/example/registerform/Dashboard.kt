@@ -43,7 +43,6 @@ data class Feature(val name: String)
 fun ScreenDashboard(
     imageId: Array<Int>,
     names: Array<String>,
-    description: Array<String>,
     navController: NavController
 ) {
     val oneList = listOf(
@@ -166,13 +165,10 @@ fun ScreenDashboard(
                         )
                         Column {
                             Text(text = names[it], style = MaterialTheme.typography.titleMedium)
-                            Text(
-                                text = description[it],
-                                style = MaterialTheme.typography.bodyMedium
-                            )
+
                             SuggestionChip(
                                 onClick = { navController.navigate(route = "screen_detail/$it") },
-                                label = { Text(text = "View Detail", color = Color.DarkGray) },
+                                label = { Text(text = "View Detail", color = Color.DarkGray, style = MaterialTheme.typography.bodyMedium) },
                                 border = BorderStroke(
                                     width = 1.dp,
                                     color = Color.DarkGray
