@@ -35,14 +35,14 @@
 
 > :sparkles: **4. Dashboard version 4**
 <div style="display:inline-block">
-  <img src="https://github.com/duyenqa/images/blob/main/screen_9.jpg"  width="40%" alt="screen 9">
-  <img src="https://github.com/duyenqa/images/blob/main/screen_10.jpg"  width="40%" alt="screen 10">
+  <img src="https://github.com/duyenqa/images/blob/main/screen09.jpg"  width="40%" alt="screen 9">
+  <img src="https://github.com/duyenqa/images/blob/main/screen10.jpg"  width="40%" alt="screen 10">
 </div>
 
 > :sparkles: **5. Detail version 4**
 <div style="display:inline-block">
-  <img src="https://github.com/duyenqa/images/blob/main/screen_11.jpg"  width="40%" alt="screen 11">
-  <img src="https://github.com/duyenqa/images/blob/main/screen_12.jpg"  width="40%" alt="screen 12">
+  <img src="https://github.com/duyenqa/images/blob/main/screen11.jpg"  width="40%" alt="screen 11">
+  <img src="https://github.com/duyenqa/images/blob/main/screen12.jpg"  width="40%" alt="screen 12">
 </div>
 
 ## Download APK
